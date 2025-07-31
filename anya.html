@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АНЯ ПРОСТИ!!!</title>
+    <style>
+        body {
+            background-color: #ffebee;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .apology {
+            font-size: 24px;
+            color: #d32f2f;
+            margin: 20px 0;
+            line-height: 1.6;
+            font-weight: bold;
+            text-transform: uppercase;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .heart {
+            color: #f44336;
+            font-size: 30px;
+            animation: beat 1s infinite;
+        }
+        @keyframes beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="apology">
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+        АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>
+    </div>
+    
+    <div class="heart">❤️</div>
+    
+    <script>
+        // Добавляем больше текста при прокрутке
+        window.addEventListener('scroll', function() {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) {
+                const apologyDiv = document.querySelector('.apology');
+                for (let i = 0; i < 10; i++) {
+                    apologyDiv.innerHTML += 'АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>';
+                    apologyDiv.innerHTML += 'АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>';
+                    apologyDiv.innerHTML += 'АНЯ ПРОСТИ!!! РАЗБЛОЧЬ В ТГ<br>';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
